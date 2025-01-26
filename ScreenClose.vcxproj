@@ -127,9 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +134,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\ansn4-urp2u-001.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
